@@ -1,0 +1,211 @@
+.titleWrapper{
+    text-align: 10px;
+    margin-bottom: 30px;
+ 
+}
+h2{
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+    color:rgba(23, 20, 20, 0.6);
+    margin-bottom: 4px;
+   
+}
+.underline{
+    width:40px;
+    border:1px solid;
+    margin:0 auto;
+}
+
+.about{
+   
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom:30px;
+    
+}
+
+.about-logo{
+    width:25%;
+    margin-bottom:20px;
+    display:inline-block;
+    vertical-align: top;
+    
+    
+}
+.about-logo img{
+    width:100%;
+   height: 300px;
+}
+.about .address {
+    border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+    
+
+}
+.about-texts{
+    width:69%;
+    margin-bottom:20px;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.about-texts span{
+    font-weight: bold;
+}
+.profile div{
+    
+    padding:10px;
+    padding-bottom: 20px;
+}
+.about-texts ,.about-media{
+    border-bottom: 0px soild gray;
+
+}
+.media{
+    display:flex;
+    justify-content: space-evenly;
+    border:3px solid #219b79;
+    
+ 
+
+}
+.profile{
+    margin-left:10%;
+   
+}
+.profile h2{
+    letter-spacing: 0.2rem;
+    color:rgba(23, 20, 20, 0.6);
+}
+.media a{
+    
+    text-align:center;
+    margin:0 20px;
+    font-size:18px;
+
+    padding:5px 10px;
+   
+    transition: all 0.5s ease-in-out;
+   
+}
+.media span{
+    color:white;
+}
+.media a:hover{
+   background-color: #219b79;
+    text-align:center;
+    margin:0 20px;
+    font-size:18px;
+    
+   
+}
+.generally{
+    margin-top:20px;
+    text-align: left;
+}
+.generally span{
+    text-transform:capitalize;
+    font-style:italic;
+    font-size: 20px;
+    color:rgb(28,130,231);
+    font-weight: bold;
+
+}
+.certificate{
+    margin-top:10px;
+}
+.certificate p{
+    padding-left :20px;
+}
+@media screen and (min-width:664px){
+    .about-center{
+        display: flex;
+        justify-content: center;
+        
+    }
+     .img{
+        height: 40vh;
+       
+    }
+    .about-logo{
+      
+        align-self:center;
+        flex:0 0 21%;
+        margin:5px;
+        height: 310px;
+        box-shadow: 0 0 5px 1px gray;
+        padding:5px;
+    }
+   img{
+        height:300px;
+        width:100%;
+        display: block;
+    }
+    .texts{
+        flex-grow:1;
+        margin:0 10px;
+    }
+}
+@media screen and (max-width:886px){
+    .about-logo{
+        align-self:center;
+        flex:0 0 300px;
+       
+    }
+    .about-logo{
+        width:90%;
+        margin-left:4.5%;
+    }
+        .about-texts{
+            width:100%;
+            margin-left:0px;
+        }  
+        .about{
+   
+            line-height: 1.6;
+            padding-left: 0px;
+            
+        } 
+       
+        .profile{
+            margin-left:1%;
+            margin-right:1%;
+           
+        }
+    
+}
+@media screen and (max-width:600px){
+    .about-logo{
+        align-self:center;
+        flex:0 0 300px;
+       
+       
+    }
+    .about-logo{
+        width:90%;
+        margin-left:4.5%;
+    }
+        .about-texts{
+            width:100%;
+            margin-left:0px;
+        }  
+        .about{
+   
+            line-height: 1.6;
+            padding-left: 0px;
+            
+        } 
+       
+        .profile{
+            margin-left:1%;
+            margin-right:1%;
+           
+        }
+       .generally{
+           padding-left:2%;
+       }
+    
+}
+

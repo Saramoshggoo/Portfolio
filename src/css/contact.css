@@ -1,0 +1,29 @@
+.contact-container{
+    background-color:rgba(0, 0, 0, 0.7);
+    height: 76px;
+    transition:all 0.5s ease-in-out;
+    opacity:1;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    font-size: 18px;
+}
+.contact-container a {
+    margin-left:30px;
+    border-bottom: 1px solid transparent;
+    transition:all 0.5s ease-in-out;
+    border:1px solid transparent;
+}
+.contact-container a:hover{
+    color:#41e1b3;
+    padding:10px 25px;
+    border:1px solid #41e1b3;
+    transition:all 0.5s ease-in-out;
+   
+
+  
+}
+.contact-container span{
+    color:white;
+  
+}
