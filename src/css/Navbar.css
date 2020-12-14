@@ -76,6 +76,9 @@ background-color:#fff;
 }
 
 @media screen and (min-width:660px){
+    .links{
+        transition: all 0s ease-in-out !important;
+    }
     .header-container{
         margin:0 auto;
         
